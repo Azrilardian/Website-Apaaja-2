@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 500px;
+    background-color: rgb(241, 241, 241);
+}
+
+.menu ul {
+    list-style-type: none;
+    float: right;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 20px 30px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-size: 16px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.menu ul li a:hover {
+    border-bottom: 1px solid rgb(36, 25, 39);
+}
+
+.menu-text {
+    text-align: center;
+    height: 120px;
+    padding: 130px;
+    color: rgb(31, 31, 31);
+}
+
+.menu-text h1 {
+    font-size: 35px;
+    text-transform: capitalize;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.menu-text p {
+    width: 650px;
+    margin: 0 auto;
+    padding-top: 40px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.images img {
+    float: right;
+    width: 25%;
+    margin-top: -230px;
+    margin-right: 70px;
+}
+
+.features {
+    height: 400px;
+    color: rgb(31, 31, 31);
+}
+
+.features-text h1 {
+    text-align: center;
+    padding-top: 70px;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: 'Pavanam', sans-serif;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.features-text p {
+    display: block;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.main-features {
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.features-one {
+    margin-left: 20px;
+}
+
+.features-one h4 {
+    font-size: 23px;
+    font-family: 'Pavanam', sans-serif;
+    font-weight: 200;
+}
+
+.features-one p {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.features-two {
+    margin-left: 20px;
+}
+
+.features-two h4 {
+    font-size: 23px;
+    font-family: 'Pavanam', sans-serif;
+    font-weight: 200;
+}
+
+.features-two p {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.features-three {
+    margin-left: 20px;
+}
+
+.features-three h4 {
+    font-size: 23px;
+    font-family: 'Pavanam', sans-serif;
+    font-weight: 200;
+}
+
+.features-three p {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.gallery {
+    height: 450px;
+}
+
+.gallery-text {
+    text-align: center;
+}
+
+.gallery-text h1 {
+    color: rgb(31, 31, 31);
+    padding-top: 80px;
+    font-size: 37px;
+    font-family: 'Pavanam', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.gallery-text p {
+    display: inline-block;
+    width: 570px;
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-top: 15px;
+}
+
+.gallery-images {
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+    height: 220px;
+}
+
+.gallery-images img {
+    width: 70%;
+}
+
+.testimonials {
+    height: 380px;
+}
+
+.testimonials-text h1 {
+    font-size: 40px;
+    font-family: 'Pavanam', sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 100;
+}
+
+.testimonials-profile {
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 23px;
+    font-family: 'Alegreya Sans', sans-serif;
+    height: 230px;
+}
+
+.testimonials-one {
+    border: 1px solid rgb(31, 31, 31);
+    padding: 20px;
+    margin: 10px;
+}
+
+p.testimonials-name {
+    font-size: 13px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.testimonials-two {
+    border: 1px solid rgb(31, 31, 31);
+    padding: 20px;
+    margin: 10px;
+}
+
+.testimonials-three {
+    border: 1px solid rgb(31, 31, 31);
+    padding: 20px;
+    margin: 10px;
+}
+
+.message {
+    height: 370px;
+}
+
+.message-text {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.message-text h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+    color: rgb(31, 31, 31);
+    font-family: 'Pavanam', sans-serif;
+    font-weight: 100;
+}
+
+.message-text p {
+    display: inline-block;
+    width: 600px;
+    margin-top: 20px;
+    line-height: 25px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 14px;
+}
+
+.message-form {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.message-form-message textarea {
+    border: 2px solid rgb(31, 31, 31);
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+    width: 580px;
+    height: 80px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 16px;
+}
+
+.message-form-email,
+.message-form-name,
+.button {
+    display: inline;
+    padding: 4px;
+}
+
+.message-form-email input.form-email {
+    border: 2px solid rgb(31, 31, 31);
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+    width: 193px;
+    height: 40px;
+    margin-top: 10px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 14px;
+}
+
+.message-form-name input.form-name {
+    border: 2px solid rgb(31, 31, 31);
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+    width: 193px;
+    height: 40px;
+    margin-top: 10px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 14px;
+}
+
+.button button {
+    border: 2px solid rgb(31, 31, 31);
+    outline: none;
+    box-shadow: none;
+    background-color: rgb(31, 31, 31);
+    width: 166px;
+    height: 44px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+.button button:hover {
+    background-color: rgb(99, 99, 99);
+}
+
+.download {
+    height: 350px;
+}
+
+.download-text h1 {
+    font-size: 38px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    text-align: center;
+    width: 900px;
+    font-weight: 100;
+    font-family: 'Pavanam', sans-serif;
+    letter-spacing: 3px;
+}
+
+.download-text p {
+    font-size: 15px;
+    font-family: 'Alegreya Sans', sans-serif;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    width: 500px;
+    line-height: 25px;
+}
+
+.download-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download-button button {
+    border: 2px solid rgb(31, 31, 31);
+    outline: none;
+    box-shadow: none;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    width: 180px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.download-button button:hover {
+    background-color: rgb(99, 99, 99);
+}
+
+footer {
+    height: 120px;
+    text-align: center;
+}
+
+.footer-menu ul {
+    margin-top: 30px;
+}
+
+.footer-menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.footer-menu ul li a {
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-size: 14px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.copyright p.from {
+    margin-top: 30px;
+    font-size: 15px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.copyright p.owner {
+    font-size: 15px;
+    margin-top: 3px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+hr {
+    color: rgb(153, 153, 153);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+/* Clear fix */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}

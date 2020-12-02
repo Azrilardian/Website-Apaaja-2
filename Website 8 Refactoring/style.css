@@ -1,0 +1,332 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+html body {
+	font-family: "Julius Sans One", sans-serif;
+	position: relative;
+}
+
+/* Uttility */
+
+html body p {
+	color: #555555;
+	line-height: 28px;
+	font-weight: 300;
+}
+
+hr {
+	color: #999999;
+}
+.container {
+	padding: 0 200px;
+}
+
+h1.h1-heading {
+	text-align: center;
+	font-size: 40px;
+	color: #241927;
+	font-weight: 400;
+	text-transform: capitalize;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	font-family: "Alegreya Sans", sans-serif;
+}
+
+/* Akhir Uttility */
+
+header nav {
+	padding: 20px 200px;
+	background-color: whitesmoke;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav h4 {
+	font-size: 22px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 500px;
+	list-style-type: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #1f1f1f;
+	font-size: 16px;
+	padding: 5px;
+	border-bottom: 1px solid transparent;
+}
+
+nav ul li a:hover {
+	border-bottom: 1px solid #241927;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+	position: relative;
+	background-color: whitesmoke;
+	padding: 200px;
+}
+
+.menu-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: #1f1f1f;
+	z-index: 99;
+}
+
+.menu-text h1 {
+	font-size: 35px;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+}
+
+.jumbotron img {
+	width: 22%;
+	position: absolute;
+	right: 20%;
+	bottom: 50px;
+	opacity: 0.5;
+	user-select: none;
+}
+
+/* Akhir Jumbotron  */
+
+/* Features */
+
+.features {
+	padding: 100px 0;
+	color: #1f1f1f;
+	font-family: "Alegreya Sans", sans-serif;
+}
+
+.features > p {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.main-features {
+	margin-top: 80px;
+	display: flex;
+}
+
+.main-features h4 {
+	font-size: 23px;
+	font-weight: 400;
+}
+
+.main-features p {
+	text-align: left;
+}
+
+.feature {
+	margin: 10px;
+}
+
+/* Akhir Features  */
+
+/* Gallery */
+
+.gallery {
+	padding: 100px 0;
+}
+
+.gallery-text {
+	text-align: center;
+}
+.gallery-text p {
+	margin: 0 auto;
+	width: 700px;
+	text-align: center;
+}
+.gallery-images {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 80px;
+}
+
+.gallery-images img {
+	width: 32%;
+}
+
+/* Akhir Gallery  */
+
+/* Testimonials */
+
+.testimonials {
+	padding: 100px 0;
+}
+
+.testimonials-profile {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.testimonial {
+	border: 1px solid rgb(31, 31, 31);
+	padding: 15px;
+	margin: 10px;
+}
+
+.testimonial p {
+	text-align: center;
+}
+
+.testimonial p:last-child {
+	font-size: 13px;
+	padding-top: 20px;
+	font-weight: bold;
+}
+
+/* Akhir Testimonials */
+
+/* Message */
+
+.message {
+	padding: 100px 0;
+}
+
+.message-text {
+	text-align: center;
+}
+
+.message > p {
+	width: 670px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.message-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 80px;
+	width: 50%;
+	margin: 80px auto 0 auto;
+}
+
+.message-form textarea {
+	height: 80px;
+	width: 100%;
+	padding: 10px;
+	border: 2px solid #1f1f1f;
+	outline: none;
+	font-family: "Alegreya Sans", sans-serif;
+	font-size: 16px;
+}
+.input-button {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.input-button input,
+.input-button button {
+	width: 32%;
+}
+
+.input-button input,
+.input-button button {
+	border: 2px solid #1f1f1f;
+	outline: none;
+	height: 45px;
+	padding: 10px;
+	margin-top: 10px;
+	font-family: "Alegreya Sans", sans-serif;
+	font-size: 14px;
+}
+
+.input-button button {
+	background-color: #1f1f1f;
+	color: white;
+	cursor: pointer;
+	transition: 0.3s ease;
+}
+
+.input-button button:hover {
+	background-color: #636363;
+}
+
+/* Akhir Message */
+
+/* Download */
+
+.download {
+	padding: 100px 0;
+	text-align: center;
+}
+.download p {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.download button {
+	border: 2px solid #1f1f1f;
+	outline: none;
+	box-shadow: none;
+	background-color: #1f1f1f;
+	color: white;
+	padding: 15px 30px;
+	font-size: 15px;
+	margin-top: 20px;
+	transition: 0.3s ease;
+	cursor: pointer;
+}
+
+.download button:hover {
+	background-color: #636363;
+}
+
+/* Akhir Download */
+
+/* Footer */
+
+footer {
+	padding: 50px 0;
+	text-align: center;
+}
+
+footer ul {
+	width: 450px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style-type: none;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: #1f1f1f;
+	font-size: 14px;
+	padding: 5px;
+}
+
+.copyright p {
+	margin: 30px 0 3px 0;
+	font-size: 15px;
+}
+
+.copyright p:last-child {
+	margin: 0;
+}
